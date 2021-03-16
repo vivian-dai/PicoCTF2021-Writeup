@@ -1,6 +1,6 @@
 # PicoCTF2021 - Obedient Cat
 
-## Promblem Statement
+## Problem Statement
 
 This file has a flag in plain sight (aka "in-the-clear"). Download flag.
 
