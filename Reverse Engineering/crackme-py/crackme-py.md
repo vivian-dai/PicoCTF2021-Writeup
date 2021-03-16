@@ -2,7 +2,7 @@
 
 ## Description
 
-[crackme.py](https://github.com/v341196137/PicoCTF2021-Writeup/Reverse%20Engineering/crackme-py)
+[crackme.py](https://github.com/v341196137/PicoCTF2021-Writeup/blob/main/Reverse%20Engineering/crackme-py/crackme.py)
 
 ## Hints
 
