@@ -1,5 +1,8 @@
-# PicoCTF2021-Writeup
+# PicoCTF2021 - Obedient Cat
 
-For the sole purpose of proving people did stuff.
+Download file named "flag"
 
-On a side note... these are the writeups for the few questions we managed to complete.
+Copy and paste the flag
+
+## Flag
+picoCTF{s4n1ty_v3r1f13d_b5aeb3dd}
