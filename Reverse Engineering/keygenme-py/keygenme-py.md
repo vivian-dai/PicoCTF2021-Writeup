@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-[keygenme-trial.py]
+[keygenme-trial.py](https://github.com/v341196137/PicoCTF2021-Writeup/blob/main/Reverse%20Engineering/keygenme-py/keygenme-trial.py)
 
 ### Points
 
@@ -18,7 +18,7 @@ Reverse Engineering
 
 ## Approach
 
-What stood out to me first was the following python code: 
+What stood out to me first was the following python code:
 
 ```python
 key_part_static1_trial = "picoCTF{1n_7h3_|<3y_of_"
