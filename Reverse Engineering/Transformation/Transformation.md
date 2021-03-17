@@ -20,8 +20,7 @@ Reverse Engineering
 
 ## Approach
 
-Because the code given in the description used ord() and chr() which are used in Python when changing from decimal to ascii values, I tried placing the characters in the file into an online convertor and got the numbers: 
-
+Because the code given in the description used ord() and chr() which are used in Python when changing from decimal to ascii values, I tried placing the characters in the file into an online convertor and got the numbers:
 
 > 28777,25455,17236,18043,12598,24418,26996,29535,26990,29556,13108,25695,28518,24376,24368,13411,12343,13872,25725
 
