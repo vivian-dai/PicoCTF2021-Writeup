@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-I wonder what this really is... [enc]
+I wonder what this really is... [enc](https://github.com/v341196137/PicoCTF2021-Writeup/blob/main/Reverse%20Engineering/Transformation/enc)
 
 ''.join([chr((ord(flag[i]) << 8) + ord(flag[i + 1])) for i in range(0, len(flag), 2)])
 
@@ -20,8 +20,7 @@ Reverse Engineering
 
 ## Approach
 
-Because the code given in the description used ord() and chr() which are used in Python when changing from decimal to ascii values, I tried placing the characters in the file into an online convertor and got the numbers: 
-
+Because the code given in the description used ord() and chr() which are used in Python when changing from decimal to ascii values, I tried placing the characters in the file into an online convertor and got the numbers:
 
 > 28777,25455,17236,18043,12598,24418,26996,29535,26990,29556,13108,25695,28518,24376,24368,13411,12343,13872,25725
 
