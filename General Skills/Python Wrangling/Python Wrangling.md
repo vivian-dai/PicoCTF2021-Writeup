@@ -7,7 +7,7 @@ Category: General Skills
 
 ## Description
 
-Python scripts are invoked kind of like programs in the Terminal... Can you run [this Python script](https://github.com/v341196137/PicoCTF2021-Writeup/blob/main/General%20Skills/Python%20Wrangling/ende.py) using [this password](https://github.com/v341196137/PicoCTF2021-Writeup/blob/main/General%20Skills/Python%20Wrangling/pw.txt) to get [the flag](https://github.com/v341196137/PicoCTF2021-Writeup/blob/main/General%20Skills/Python%20Wrangling/flag.txt.en)?
+Python scripts are invoked kind of like programs in the Terminal... Can you run [this Python script](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/General%20Skills/Python%20Wrangling/ende.py) using [this password](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/General%20Skills/Python%20Wrangling/pw.txt) to get [the flag](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/General%20Skills/Python%20Wrangling/flag.txt.en)?
 
 ## Hints
 

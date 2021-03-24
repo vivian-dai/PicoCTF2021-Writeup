@@ -1145,7 +1145,7 @@ G0Z0.1
 
 A quick Google search says a CNC machine uses GCode which can have a file extension of `.gcode` so I pasted that section of code into a text editor and saved it as a `.gcode` file. [NC Viewer](https://ncviewer.com/) can view GCode files:
 
-![flag](https://github.com/v341196137/PicoCTF2021-Writeup/blob/main/Reverse%20Engineering/speeds%20and%20feeds/flag.png)
+![flag](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Reverse%20Engineering/speeds%20and%20feeds/flag.png)
 
 ## Flag
 

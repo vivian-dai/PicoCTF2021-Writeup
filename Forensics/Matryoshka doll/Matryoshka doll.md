@@ -7,7 +7,7 @@ Category: Forensics
 
 ## Description
 
-Matryoshka dolls are a set of wooden dolls of decreasing size placed one inside another. What's the final one? Image: [this](https://github.com/v341196137/PicoCTF2021-Writeup/blob/main/Foresnics/Matryoshka%20doll/dolls.jpg)
+Matryoshka dolls are a set of wooden dolls of decreasing size placed one inside another. What's the final one? Image: [this](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Foresnics/Matryoshka%20doll/dolls.jpg)
 
 ## Hints
 
