@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-We found a brand new type of encryption, can you break the secret code? (Wrap with picoCTF{}) mlnklfnknljflfmhjimkmhjhmljhjomhmmjkjpmmjmjkjpjojgjmjpjojojnjojmmkmlmijimhjmmj new_caesar.py
+We found a brand new type of encryption, can you break the secret code? (Wrap with picoCTF{}) mlnklfnknljflfmhjimkmhjhmljhjomhmmjkjpmmjmjkjpjojgjmjpjojojnjojmmkmlmijimhjmmj [new_caesar.py](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/New%20Caesar/new_caesar.py)
 
 ### Points
 
@@ -63,7 +63,7 @@ The function shift returns a value in ALPHABET at the index ascii value of the c
 
 ### Solving
 
-I decided to write code to make the program run in reverse [new_caesar_reverse_code]()
+I decided to write code to make the program run in reverse [new_caesar_reverse_code](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/New%20Caesar/new_caesar_reverse_code.py)
 
 I stored the value in the question in the variable enc and as the key could have been any character from a to p, I decided to create a list named b16 so that I can convert the encryption for all possible keys. I first needed to revers the function shift.
 
