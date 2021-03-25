@@ -50,7 +50,7 @@ for i, c in enumerate(b16):
     enc += shift(c, key[i % len(key)])
 ```
 
-The final process of encrypting the flag is avoce. Usine enumerate loops through the values of b16, assigning i to the index at a particular point and c the value. The values for the function include the values of b16 and the key (len(key) = 1, i%1 = 0).
+The final process of encrypting the flag is above. Usine enumerate loops through the values of b16, assigning i to the index at a particular point and c the value. The values for the function include the values of b16 and the key (len(key) = 1, i%1 = 0).
 
 ```python
 def shift(c, k):
