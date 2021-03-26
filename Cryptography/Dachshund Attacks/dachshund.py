@@ -11,7 +11,7 @@ if d is None:
     print("Failed")
 
 else :
-    print("Found d = {}".format(d))
+    print("Found d: = {}".format(d))
 
 M = pow(c, d, n)
 
