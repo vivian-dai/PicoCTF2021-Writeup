@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-Not all ancient ciphers were so bad... The flag is not in standard format. nc mercury.picoctf.net 30568 [playfair.py]()
+Not all ancient ciphers were so bad... The flag is not in standard format. nc mercury.picoctf.net 30568 [playfair.py](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Play%20Nice/playfair.py)
 
 ### Points
 
@@ -28,7 +28,7 @@ enc_msg = encrypt_string(msg, m)
 print("Here is the alphabet: {}\nHere is the encrypted message: {}".format(alphabet, enc_msg))
 ```
 
-This initializes important variables in the program. Running it in Terminal, we get that that the alphabet is "0fkdwu6rp8zvsnlj3iytxmeh72ca9bg5o41q" and enc_msg is "herfayo7oqxrz7jwxx15ie20p40u1i". 
+This initializes important variables in the program. Running it in Terminal, we get that that the alphabet is "0fkdwu6rp8zvsnlj3iytxmeh72ca9bg5o41q" and enc_msg is "herfayo7oqxrz7jwxx15ie20p40u1i".
 
 ```python
 def generate_square(alphabet):
@@ -97,7 +97,7 @@ The function encrypt_pair is where characters in the message are changed. If the
 
 ### Solving
 
-I created a program [playfair_solve]() to find the message
+I created a program [playfair_solve](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Play%20Nice/playfair_solve.py) to find the message
 
 ```python
 for i in range(0, len(enc_msg), 2):
@@ -117,4 +117,4 @@ I tried picoCTF{007d0a696aaad7fb5ec21c7698e4f754} which didn't work and then tri
 
 ## Flag
 
-007d0a696aaad7fb5ec21c7698e4f754
+picoCTF{007d0a696aaad7fb5ec21c7698e4f754}
