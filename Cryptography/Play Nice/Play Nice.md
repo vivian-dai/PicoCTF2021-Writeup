@@ -117,4 +117,4 @@ I tried picoCTF{007d0a696aaad7fb5ec21c7698e4f754} which didn't work and then tri
 
 ## Flag
 
-picoCTF{007d0a696aaad7fb5ec21c7698e4f754}
+007d0a696aaad7fb5ec21c7698e4f754
