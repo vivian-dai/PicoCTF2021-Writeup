@@ -30,7 +30,7 @@ key = "redacted"
 assert all([k in ALPHABET for k in key]) and len(key) < 15
 ```
 
-The flag can only contain the characters in "abcdef0123456789" and the key needs to be in ALPHABET (letters from a to p) and has a maximum length of 15.
+The flag can only contain the characters in "abcdef0123456789" and the key needs to be in ALPHABET (letters from 'a' to 'p') and has a maximum length of 15.
 
 ### Solving
 
@@ -46,7 +46,7 @@ This means that in g16, every other character is either a 'g' or a 'd'.
 
 In the original code, enc += shift(c, key[i % len(key)]), which means that the values of key are looped through to get the values of enc. This means that there will be a pattern in the key every len(key) values in enc.
 
-I decided to try manually getting the flag so I printed out the values of b16 for the letters a to p.
+I decided to try manually getting the flag so I printed out the values of b16 for the letters 'a' to 'p'.
 
 ![b16 Possible Values 1](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/New%20Vignere/B16%20Possible%20Values%201.png)
 
@@ -54,7 +54,7 @@ I first attempted to find a pattern in the letters at index 0, 2, etc. I highlig
 
 ![b16 possible values 2](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/New%20Vignere/b16%20possible%20values%202.jpeg)
 
-Next I tried to find a pattern including the second letters in the pair. As the pattern above is 9 characters, if we take into account the second letter, that would mean that the flag is 18 (9 * 2) characters long, which exceeds the maximum length for the key. This means thatat there is a repeated value in between pair 1 and pair 9. It is likely that the pattern repeates every 9 letters so I tried it out. If the first value is a 'd', the character needs to be an integer so the second value is a character from a to j. If the first value is a 'g', the character is a letter and the second letter is a letter between b to g.
+Next I tried to find a pattern including the second letters in the pair. As the pattern above is 9 characters, if we take into account the second letter, that would mean that the flag is 18 (9 * 2) characters long, which exceeds the maximum length for the key. This means thatat there is a repeated value in between pair 1 and pair 9. It is likely that the pattern repeates every 9 letters so I tried it out. If the first value is a 'd', the character needs to be an integer so the second value is a character from a to j. If the first value is a 'g', the character is a letter and the second letter is a letter between 'b' and 'g'.
 
 ![b16 possible values 3](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/New%20Vignere/b16%20possible%20values%203.png)
 
@@ -79,7 +79,7 @@ for i in enc:
         b16+=chr(index +16-k+97)
 ```
 
-Running the code, we get that the flag "698987ddce418c11e9aa564229c50fda" and testing picoCTF{698987ddce418c11e9aa564229c50fda}, we find the flag
+Running the code, we get that the flag "698987ddce418c11e9aa564229c50fda" and testing picoCTF{698987ddce418c11e9aa564229c50fda}, we find the flag.
 
 ## Flag
 
