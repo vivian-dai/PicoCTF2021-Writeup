@@ -56,7 +56,7 @@ I first attempted to find a pattern in the letters at index 0, 2, etc. I highlig
 
 Next I tried to find a pattern including the second letters in the pair. As the pattern above is 9 characters, if we take into account the second letter, that would mean that the flag is 18 (9 * 2) characters long, which exceeds the maximum length for the key. This means thatat there is a repeated value in between pair 1 and pair 9. It is likely that the pattern repeates every 9 letters so I tried it out. If the first value is a 'd', the character needs to be an integer so the second value is a character from a to j. If the first value is a 'g', the character is a letter and the second letter is a letter between b to g.
 
-![b16 possible values 3]()
+![b16 possible values 3](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/New%20Vignere/b16%20possible%20values%203.png)
 
 In the image above, it only shows the first three loops because it is possible to find the pattern with just the first three loops. There is a pattern every 9 letters and the letters we get from that are "oedcfjdbe", which is the key.
 
