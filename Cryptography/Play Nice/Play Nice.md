@@ -28,7 +28,7 @@ enc_msg = encrypt_string(msg, m)
 print("Here is the alphabet: {}\nHere is the encrypted message: {}".format(alphabet, enc_msg))
 ```
 
-This initializes important variables in the program. Running it in Terminal, we get that that the alphabet is "0fkdwu6rp8zvsnlj3iytxmeh72ca9bg5o41q" and enc_msg is "herfayo7oqxrz7jwxx15ie20p40u1i". 
+This initializes important variables in the program. Running it in Terminal, we get that that the alphabet is "0fkdwu6rp8zvsnlj3iytxmeh72ca9bg5o41q" and enc_msg is "herfayo7oqxrz7jwxx15ie20p40u1i".
 
 ```python
 def generate_square(alphabet):
@@ -117,4 +117,4 @@ I tried picoCTF{007d0a696aaad7fb5ec21c7698e4f754} which didn't work and then tri
 
 ## Flag
 
-007d0a696aaad7fb5ec21c7698e4f754
+picoCTF{007d0a696aaad7fb5ec21c7698e4f754}
