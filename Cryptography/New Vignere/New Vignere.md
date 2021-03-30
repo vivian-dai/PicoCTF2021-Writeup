@@ -14,7 +14,7 @@ Cryptography
 
 ### Hints
 
-1. https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Cryptanalysis
+1. [https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Cryptanalysis](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Cryptanalysis)
 
 ## Approach
 
@@ -52,7 +52,7 @@ I decided to try manually getting the flag so I printed out the values of b16 fo
 
 I first attempted to find a pattern in the letters at index 0, 2, etc. I highlighted all pairs that start with g or b to try to find a pattern in the key. Column 10 is the first repetition of either a key of 'l' or 'o' which are the values found in column 1 so I tried seeing if there was a pattern every 9 pairs. The circles correspons to how I figured out the value for the 9 pairs. I was unable to find the 6th pair but I guessed that I would be able to find it after taking into account the second letter. The values for the key we currently have are "odfde(b/e)cjb".
 
-![b16 possible values 2]()
+![b16 possible values 2](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/New%20Vignere/b16%20possible%20values%202.jpeg)
 
 Next I tried to find a pattern including the second letters in the pair. As the pattern above is 9 characters, if we take into account the second letter, that would mean that the flag is 18 (9 * 2) characters long, which exceeds the maximum length for the key. This means thatat there is a repeated value in between pair 1 and pair 9. It is likely that the pattern repeates every 9 letters so I tried it out. If the first value is a 'd', the character needs to be an integer so the second value is a character from a to j. If the first value is a 'g', the character is a letter and the second letter is a letter between b to g.
 
@@ -60,7 +60,7 @@ Next I tried to find a pattern including the second letters in the pair. As the 
 
 In the image above, it only shows the first three loops because it is possible to find the pattern with just the first three loops. There is a pattern every 9 letters and the letters we get from that are "oedcfjdbe", which is the key.
 
-I slightly modified the code from New Caesar to use the key found, [new_vignere_solve](). The code to convert from b16 to the flag is the same while the code to convert from enc to b16 now loops through the key. 
+I slightly modified the code from New Caesar to use the key found, [new_vignere_solve](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/New%20Vignere/new_vignere_solve.py). The code to convert from b16 to the flag is the same while the code to convert from enc to b16 now loops through the key.
 
 ```python
 enc ="bkglibgkhghkijphhhejggikgjkbhefgpienefjdioghhchffhmmhhbjgclpjfkp"
