@@ -17,8 +17,8 @@ On a side note... these are the writeups for the few questions we managed to com
 |[Wave a flag](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/General%20Skills/Waving%20Flag/WavingFlag.md)|10|
 |[Nice netcat...](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/General%20Skills/Nice%20netcat/Nice%20netcat.md)|15|
 |[Static ain't always noise](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/General%20Skills/Static%20ain't%20always%20noise/staticain'talwaysnoise.md)|20|
-|[Tab, Tab, Attack](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/General%20Skills/Tab,%20,Tab,%20Attack/Tab,%20,Tab,%20Attack.md)|20|
-|[Magikarp Ground Mission](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/General%20Skill/Magikarp%20Ground%20Mission/Magikarp%20Ground%20Mission.md)|30|
+|[Tab, Tab, Attack](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/General%20Skills/Tab%2C%20Tab%2C%20Attack/Tab%2C%20Tab%2C%20Attack.md)|20|
+|[Magikarp Ground Mission](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/General%20Skills/Magikarp%20Ground%20Mission/Magikarp%20Ground%20Mission.md)|30|
 
 </details>
 
@@ -29,9 +29,9 @@ On a side note... these are the writeups for the few questions we managed to com
 |Question|Points|
 |--------|------|
 |[Mod 26](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Mod%2026/Mod%2026.md)|10|
-|[Mind your Ps and Qs](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Mind%20your%20Ps%20and%20Qs/Mind%20your%20Ps%20and%20Qs/.md)|20|
+|[Mind your Ps and Qs](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Mind%20your%20Ps%20and%20Qs/Mind%20your%20Ps%20and%20Qs.md)|20|
 |[New Caesar](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/New%20Caesar/New%20Caesar.md)|60|
-|[Dachshund Attacks](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Dachshund%20Attacks/Dachshund%20Attacks.md)|80|
+|[Dachshund Attacks](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Dachshund%20Attacks/dachshundattacks.md)|80|
 |[Pixelated](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Pixelated/Pixelated.md)|100|
 |[Play Nice](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Play%20Nice/Play%20Nice.md)|110|
 |[It is my Birthday 2](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/It%20is%20my%20Birthday%202/It%20is%20my%20Birthday%202.md)|170|
@@ -50,8 +50,8 @@ On a side note... these are the writeups for the few questions we managed to com
 |[Cookies](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Web%20Exploitation/Cookies/Cookies.md)|40|
 |[Scavenger Hunt](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Web%20Exploitation/Scavenger%20Hunt/Scavenger%20Hunt.md)|50|
 |[Some Assembly Required 1](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Web%20Exploitation/Some%20Assembly%20Required%201/Some%20Assembly%20Required%201.md)|70|
-|[It is my Birthday](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Web%Exploitation/It%20is%20my%20Birthday/It%20is%20my%20Birthday.md)|100|
-|[Most Cookies](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Web%Exploitation/Most%20Cookies/Most%20Cookies.md)|150|
+|[It is my Birthday](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Web%20Exploitation/It%20is%20my%20Birthday/It%20is%20my%20Birthday.md)|100|
+|[Most Cookies](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Web%20Exploitation/Most%20Cookies/MostCookies.md)|150|
 
 </details>
 
@@ -66,7 +66,7 @@ On a side note... these are the writeups for the few questions we managed to com
 |[Matryoshka doll](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Forensics/Matryoshka%20doll/Matryoshka%20doll.md)|30|
 |[Wireshark doo dooo do doo...](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Forensics/Wireshark%20doo%20dooo%20do%20doo/Wireshark%20doo%20dooo%20do%20doo.md)|50|
 |[Trivial Flag Transfer Protocol](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Forensics/Trivial%20Flag%20Transfer%20Protocol/Trivial%20Flag%20Transfer%20Protocol.md)|90|
-|[Disk, disk, sleuth!](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Forensics/Disk,%20,disk%20,sleuth!/Disk,%20,disk%20,sleuth!.md)|110|
+|[Disk, disk, sleuth!](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Forensics/Disk%2C%20disk%2C%20sleuth!/Disk%2C%20disk%2C%20sleuth!.md)|110|
 |[Disk, disk, sleuth! II](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Forensics/Disk%2C%20disk%2C%20sleuth!%20II/Disk%2C%20disk%2C%20sleuth!%20II.md)|130|
 
 </details>
