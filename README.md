@@ -4,6 +4,8 @@ For the sole purpose of proving people did stuff.
 
 On a side note... these are the writeups for the few questions we managed to complete.
 
+Side note x2: I don't think my team mates are going to add to this anymore but I'm going to also add in the questions that got solved *after* pico ended and be sad about the simplicity of some of them *cough* milk. Everything before [this commit](https://github.com/vivian-dai/PicoCTF2021-Writeup/commit/f6cacbebed610f80202bca05bcf10650cca189db) was solved before pico ended (if it matters)
+
 ## Questions
 
 <details>
@@ -67,6 +69,7 @@ On a side note... these are the writeups for the few questions we managed to com
 |[Wireshark doo dooo do doo...](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Forensics/Wireshark%20doo%20dooo%20do%20doo/Wireshark%20doo%20dooo%20do%20doo.md)|50|
 |[Trivial Flag Transfer Protocol](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Forensics/Trivial%20Flag%20Transfer%20Protocol/Trivial%20Flag%20Transfer%20Protocol.md)|90|
 |[Disk, disk, sleuth!](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Forensics/Disk%2C%20disk%2C%20sleuth!/Disk%2C%20disk%2C%20sleuth!.md)|110|
+|[Milkslap](./Forensics/Milkslap/Milkslap.md)|120|
 |[Disk, disk, sleuth! II](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Forensics/Disk%2C%20disk%2C%20sleuth!%20II/Disk%2C%20disk%2C%20sleuth!%20II.md)|130|
 
 </details>
@@ -91,6 +94,7 @@ On a side note... these are the writeups for the few questions we managed to com
 
 |Question|Points|
 |--------|------|
+|[Stonks](./Binary%20Exploitation/Stonks/Stonks.md)|20|
 |[What's your input](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Binary%20Exploitation/What's%20your%20input/What's%20your%20input.md)|50|
 
 </details>
