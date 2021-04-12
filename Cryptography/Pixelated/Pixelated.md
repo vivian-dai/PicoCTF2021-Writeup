@@ -7,7 +7,7 @@ Category: Cryptography
 
 ## Description
 
-I have these 2 images, can you make a flag out of them? [scrambled1.png](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Pixelated/scrambled1.png) [scrambled2.png](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Pixelated/scrambled1.png)
+I have these 2 images, can you make a flag out of them? [scrambled1.png](./scrambled1.png) [scrambled2.png](./scrambled1.png)
 
 ## Hints
 
@@ -20,20 +20,20 @@ I downloaded [stegsolve](https://github.com/eugenekolo/sec-tools/blob/master/ste
 
 I opened the stegsolve jar file. In the jar file, I opened
 
-![scrambled1](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Pixelated/scrambled1.png)
+![scrambled1](./scrambled1.png)
 
 File > Open(O)
 
 I then overlayed
 
-![scrambled2.png](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Pixelated/scrambled1.png)
+![scrambled2.png](.scrambled2.png)
 
 on top.
 Analyse > Image Combiner
 
 I went through a bunch of different adding methods before ADD finally worked.
 
-![solved](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Pixelated/solved.bmp)
+![solved](./solved.bmp)
 
 ## Flag
 

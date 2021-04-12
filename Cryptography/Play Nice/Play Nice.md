@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-Not all ancient ciphers were so bad... The flag is not in standard format. nc mercury.picoctf.net 30568 [playfair.py](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Play%20Nice/playfair.py)
+Not all ancient ciphers were so bad... The flag is not in standard format. nc mercury.picoctf.net 30568 [playfair.py](./playfair.py)
 
 ### Points
 
@@ -97,7 +97,7 @@ The function encrypt_pair is where characters in the message are changed. If the
 
 ### Solving
 
-I created a program [playfair_solve](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Play%20Nice/playfair_solve.py) to find the message
+I created a program [playfair_solve](./playfair_solve.py) to find the message
 
 ```python
 for i in range(0, len(enc_msg), 2):

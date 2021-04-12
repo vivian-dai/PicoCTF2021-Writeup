@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-This file has a flag in plain sight (aka "in-the-clear"). [Download flag](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/General%20Skills/Obedient%20Cat/flag).
+This file has a flag in plain sight (aka "in-the-clear"). [Download flag](./flag).
 
 ## Information
 

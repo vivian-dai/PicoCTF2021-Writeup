@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-[keygenme-trial.py](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Reverse%20Engineering/keygenme-py/keygenme-trial.py)
+[keygenme-trial.py](./keygenme-trial.py)
 
 ### Points
 

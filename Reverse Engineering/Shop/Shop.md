@@ -7,7 +7,7 @@ Category: Reverse Engineering
 
 ## Description
 
-Best Stuff - Cheap Stuff, Buy Buy Buy... Store Instance: [source](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Reverse%20Engineering/Shop/source). The shop is open for business at nc mercury.picoctf.net 34938.
+Best Stuff - Cheap Stuff, Buy Buy Buy... Store Instance: [source](./source). The shop is open for business at nc mercury.picoctf.net 34938.
 
 ## Hints
 

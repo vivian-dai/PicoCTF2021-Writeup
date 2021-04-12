@@ -2,7 +2,7 @@
 
 ## Description
 
-[crackme.py](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Reverse%20Engineering/crackme-py/crackme.py)
+[crackme.py](./crackme.py)
 
 ## Hints
 

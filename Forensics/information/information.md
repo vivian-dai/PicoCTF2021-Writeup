@@ -7,7 +7,7 @@ Category: Forensics
 
 ## Description
 
-Files can always be changed in a secret way. Can you find the flag? [cat.jpg](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Forensics/information/cat.jpg)
+Files can always be changed in a secret way. Can you find the flag? [cat.jpg](./cat.jpg)
 
 ## Hints
 

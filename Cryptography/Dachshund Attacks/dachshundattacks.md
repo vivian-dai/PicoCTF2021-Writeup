@@ -10,7 +10,7 @@ Points: 80
 
 ## Hints
 
-1) What do you think about my pet? [dachshund.jpg](https://github.com/vivian-dai/PicoCTF2021-Writeup/blob/main/Cryptography/Dachshund%20Attacks/dachshund.jpg)
+1) What do you think about my pet? [dachshund.jpg](./dachshund.jpg)
 
 ## Solution
 
