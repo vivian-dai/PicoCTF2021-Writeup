@@ -26,7 +26,7 @@ File > Open(O)
 
 I then overlayed
 
-![scrambled2.png](.scrambled2.png)
+![scrambled2.png](./scrambled2.png)
 
 on top.
 Analyse > Image Combiner
