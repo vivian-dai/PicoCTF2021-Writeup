@@ -1,6 +1,6 @@
 # Milkslap
 
-Disclaimer: I did not solve this during pico
+Disclaimer: I did not solve this during pico. Overall approach was taught by a friend.
 
 ## Overview
 
