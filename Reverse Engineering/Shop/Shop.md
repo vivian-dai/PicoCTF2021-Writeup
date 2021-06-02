@@ -34,16 +34,7 @@ After playing around for a bit, I sold a negative number of item.... and ended u
 Flag is:  [112 105 99 111 67 84 70 123 98 52 100 95 98 114 111 103 114 97 109 109 101 114 95 98 97 54 98 56 99 100 102 125]
 ```
 
-This looks like ascii so I wrote a quick Python script to get the flag
-
-```python
-s = "112 105 99 111 67 84 70 123 98 52 100 95 98 114 111 103 114 97 109 109 101 114 95 98 97 54 98 56 99 100 102 125"
-nums = s.split(" ")
-flag = ""
-for num in nums:
-    flag += chr(int(num))
-print(flag)
-```
+This looks like ascii so I wrote a quick [Python script](./script.py) to get the flag
 
 ## Flag
 

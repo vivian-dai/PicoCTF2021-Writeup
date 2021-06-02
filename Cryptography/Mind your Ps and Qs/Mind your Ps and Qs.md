@@ -28,15 +28,7 @@ I ran the slightly modified [code](https://github.com/vivian-dai/PicoCTF2021-Wri
 ![output](./output.png)
 
 It appears that the flag is reversed: `}76721050_do0g_0n_N_11ams{FTCocip`. That's fine, simple fix.
-I ran a Python script:
-
-```python
-reved_string = "}76721050_do0g_0n_N_11ams{FTCocip"
-flag = ""
-for i in reved_string:
-    flag = i + flag
-print(flag)
-```
+I ran a [Python script](./script.py)
 
 ## Flag
 
