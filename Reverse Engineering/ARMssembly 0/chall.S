@@ -1,4 +1,7 @@
 	# email 
+	# In Python, global keyword allows you to modify the variable outside of the current scope. It is used to create a global variable and make changes to the variable in a local context.
+
+
 	
 	.arch armv8-a
 	.file	"chall.c"
