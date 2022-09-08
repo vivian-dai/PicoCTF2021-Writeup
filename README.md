@@ -5,6 +5,8 @@ Side note x2: I don't think my team mates are going to add to this anymore but I
 
 If you'd like to try some of these problems yourself, head on over to [PicoGym](https://play.picoctf.org/practice)!
 
+For all binary exploitation problems in this writeup, you can find a more detailed explanation [here](https://github.com/vivian-dai/PicoCTF2021-Writeup/discussions/11)
+
 ## Questions
 
 <details>
