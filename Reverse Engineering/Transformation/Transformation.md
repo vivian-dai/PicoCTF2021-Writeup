@@ -36,7 +36,7 @@ Testing this out with "pi" which are the first two most likely characters for th
 28777 = ord(flag[0]) << 8 + ord(flag[1])
 ord('p') <<8 + ord('i')
 = 112 << 8 + 105
-= 28672 + 105 = 288777
+= 28672 + 105 = 28777
 ```
 
 After realizing this, I decided to write code to find the characters corresponding to each of the numbers:
