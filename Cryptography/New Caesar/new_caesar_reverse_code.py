@@ -1,6 +1,6 @@
 import string
 import binascii
-enc ="mlnklfnknljflfmhjimkmhjhmljhjomhmmjkjpmmjmjkjpjojgjmjpjojojnjojmmkmlmijimhjmmj"
+enc ="dcebcmebecamcmanaedbacdaanafagapdaaoabaaafdbapdpaaapadanandcafaadbdaapdpandcac"
 ALPHABET = string.ascii_lowercase[:16] 
 
 b16 = []
