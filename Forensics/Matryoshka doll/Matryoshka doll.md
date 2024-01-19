@@ -22,6 +22,16 @@ Hiding files inside of files really stumped me until I found [a video](https://y
 
 I mean it's perfectly possible to jam it all together manually but here's a [Python script](./script.py) to do it
 
+## Alternative Approach
+
+You can also use Binwalk. it's a tool that allows you to search binary images for embedded files and executable code. I found a zip file inside and extracted it using this command:
+```bash
+binwalk -e dolls.png
+```
+keep doing that and you'll get to flag.txt
+
+visit this [link](https://infosecwriteups.com/beginners-ctf-guide-finding-hidden-data-in-images-e3be9e34ae0d) to learn more.
+
 ## Flag
 
 picoCTF{e3f378fe6c1ea7f6bc5ac2c3d6801c1f}
