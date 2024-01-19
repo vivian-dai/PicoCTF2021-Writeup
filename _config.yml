@@ -3,6 +3,6 @@ title: PicoCTF 2021 Writeups
 description: our team's writeups for the 2021 PicoCTF competition
 author: panda
 # theme
-theme: hacker
+theme: jekyll-theme-hacker
 # Github flavored markdown
 markdown: GFM
