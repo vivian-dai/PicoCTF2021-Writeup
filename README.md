@@ -15,7 +15,7 @@ For all binary exploitation problems in this writeup, you can find a more detail
 
 |Question|Points|
 |--------|------|
-|[Obedient Cat](./General%20Skills/Obedient%20Cat/ObedientCat.md)|5|
+|[Obedient Cat](./General%20Skills/Obedient%20Cat/)|5|
 |[Python Wrangling](./General%20Skills/Python%20Wrangling/)|10|
 |[Wave a flag](./General%20Skills/Waving%20Flag/)|10|
 |[Nice netcat...](./General%20Skills/Nice%20netcat/)|15|
@@ -31,7 +31,7 @@ For all binary exploitation problems in this writeup, you can find a more detail
 
 |Question|Points|
 |--------|------|
-|[Mod 26](./Cryptography/Mod%2026/Mod%2026.md)|10|
+|[Mod 26](./Cryptography/Mod%2026/)|10|
 |[Mind your Ps and Qs](./Cryptography/Mind%20your%20Ps%20and%20Qs/)|20|
 |[New Caesar](./Cryptography/New%20Caesar/)|60|
 |[Dachshund Attacks](./Cryptography/Dachshund%20Attacks/)|80|
